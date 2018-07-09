@@ -1,0 +1,8 @@
+This is for SOFT reset.
+Hard reset deleted the complete file.
+Let's see what soft does!
+
+So, after git reset --soft HEAD^
+It removed the commit and put this file back to the staging area.
+
+git reset --hard HEAD^ completely deleted the commit and deleted the file also.
